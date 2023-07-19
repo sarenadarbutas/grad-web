@@ -1,0 +1,54 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d9edc7; /* Set background color to a lighter shade of green */
+    text-align: center;
+  }
+  
+  .login-wrapper {
+    margin-top: 40px;
+  }
+  
+  .login-title {
+    margin-top: 0;
+    font-size: 24px;
+    color: #5cb85c; /* Set text color to green */
+  }
+  
+  .auth-wrapper {
+    margin-top: 20px;
+  }
+  
+  /* Style the Auth component inputs and buttons */
+  .auth-wrapper input {
+    width: 100%;
+    padding: 12px; /* Increase padding for better spacing */
+    margin-bottom: 12px; /* Increase margin for better spacing */
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8; /* Set background color of inputs to light gray */
+  }
+  
+  .auth-wrapper button {
+    width: 100%;
+    padding: 12px; /* Increase padding for better spacing */
+    background-color: #5cb85c; /* Set background color of buttons to green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect for smoother hover effect */
+    margin-top: 10px;
+  }
+  
+  .auth-wrapper button:hover {
+    background-color: #449d44; /* Change background color of buttons on hover */
+  }
+  
+  /* Add focus styles for better accessibility */
+  .auth-wrapper input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #5cb85c; /* Add green box-shadow on input focus */
+  }
+  

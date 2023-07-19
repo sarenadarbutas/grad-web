@@ -1,0 +1,92 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ea; /* Set background color to green */
+    text-align: center;
+  }
+  
+  .title {
+    margin-top: 0;
+  }
+  
+  .label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .select {
+    margin-top: 10px;
+  }
+  
+  .selected-courses {
+    margin-top: 20px;
+  }
+  
+  .remove-btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #5cb85c; /* Set background color of remove button to green */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background-color: #449d44; /* Change background color of remove button on hover */
+  }
+  
+  .total-credits {
+    margin-top: 20px;
+  }
+  
+  .submit-btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #5cb85c; /* Set background color of submit button to green */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #449d44; /* Change background color of submit button on hover */
+  }
+  
+  /* Keep accents green */
+  .users-major,
+  .user-name,
+  .enrollment-date {
+    color: #5cb85c;
+  }
+  
+  /* Additional styling for saved courses and course numbers */
+  .saved-courses {
+    margin-top: 20px;
+  }
+  
+  .saved-course-list {
+    margin-bottom: 20px;
+  }
+  
+  .saved-course-list h3 {
+    margin-bottom: 10px;
+  }
+  
+  .course-number-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .course-number-list li {
+    margin-bottom: 5px;
+    color: #5cb85c;
+  }
+  
+  .course-number-list li::before {
+    content: "- ";
+    color: #5cb85c;
+  }
