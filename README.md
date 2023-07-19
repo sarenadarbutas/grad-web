@@ -35,4 +35,3 @@ npm start
 ```
 If you are having issues or need to ask any questions feel free to email me at sarenadarbutas@gmail.com
 ```
-![image](https://github.com/uwp-se/grad-web/assets/114033216/66b5b9ee-afd2-4019-85a3-d27f57604e1a)
